@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251283245489",
+    "firebase_url": "https://tourism-82390-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tourism-82390",
+    "storage_bucket": "tourism-82390.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251283245489:android:5ba24d1fed4d58d494d590",
+        "android_client_info": {
+          "package_name": "edu.huflit.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251283245489-97arvuuk6vj9v8oo7l42mb9m1953l4mn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.huflit.myapplication",
+            "certificate_hash": "af80ca03d04da224868b6f5d6b272d47c59613d5"
+          }
+        },
+        {
+          "client_id": "251283245489-k6hmptv9epvp3es32uvup41e3vjdnlqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgHu8PQGgDlREYKwkTKZo5Tf8bvCEByss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251283245489-k6hmptv9epvp3es32uvup41e3vjdnlqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

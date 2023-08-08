@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ManHinhChiTietTour">
+
+    <LinearLayout
+        android:background="#5671B6"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgBackHome_DT"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/image_back" />
+
+        <TextView
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi tiết tour" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_radius5_stroke_black"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/imgAnh_Details"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/banner_chi_tiet_tour" />
+
+        <TextView
+            android:id="@+id/tvTen_Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Sun world Ba Na Hills tại Đà Nẵng"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="VND"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvGia_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="210.000"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_radius5_stroke_black"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="THÔNG TIN CHI TIẾT TOUR"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:background="@color/black"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="1dp"
+            android:background="#D9D9D9"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:text="Mô tả:"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:id="@+id/tvLichTrinh_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=" textHere"
+                app:colorClickableText="#039BE5"
+                app:trimCollapsedText="Xem thêm"
+                app:trimExpandedText="thu gọn"
+                app:trimLength="50"
+                app:trimMode="trimModeLength" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:background="@color/black"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Dịch vụ hỗ trợ và dẫn tour"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_hdv_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Người dẫn đoàn: Nguyễn Văn C"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_ptdc_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Phương thức vận chuyển: Xe khách"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:background="@color/black"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:background="#D9D9D9"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:text="Thông tin hữu ích"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Khám phá tour ẩm thực Việt – Hàn"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Thử sức với những trò chơi truyền thống Hàn Quốc."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:text="Xem thêm"
+                android:textColor="#1748F8"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Bảo hiểm"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Bảo hiêm hành lý"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Bảo hiểm y tế"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:text="Xem thêm"
+            android:textColor="#1748F8"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_dat_tour"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_button_login"
+        android:text="Đặt tour"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout>

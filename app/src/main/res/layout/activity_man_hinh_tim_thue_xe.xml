@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ManHinhTimThueXe">
+    <LinearLayout
+        android:background="@drawable/radius25"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_trangchu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/image_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Tìm thuê xe"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/radius10_stroke_black"
+        android:layout_width="370dp"
+        android:layout_height="410dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Có tài xế"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/edit_radius5_stroke_black"
+                android:layout_width="150dp"
+                android:layout_height="50dp"/>
+            <Button
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="Tự lái"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/edit_radius5_stroke_black"
+                android:layout_width="150dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Địa điểm thuê xe của bạn"
+            android:textColor="#808080"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:drawableStart="@drawable/icon_address_mini"
+                android:textSize="14dp"
+                android:layout_width="340dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Hanoi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Ngày bắt đầu"
+                android:textColor="#808080"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:text="Ngày bắt đầu"
+                android:textColor="#808080"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:drawableStart="@drawable/icon_list_mini"
+                android:layout_marginLeft="15dp"
+                android:textSize="14dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="CN, 16 thg 7 2023" />
+            <EditText
+                android:layout_marginLeft="40dp"
+                android:textSize="14dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="1 Ngày" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Giờ đón"
+            android:textColor="#808080"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:drawableStart="@drawable/icon_clock_mini"
+            android:layout_marginLeft="15dp"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="05:00"
+            android:inputType="time" />
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày kết thúc: CN, 16 thg 7 2023" />
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_tim_xe"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/edit_button_login"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="tìm xe" />
+    </LinearLayout>
+</RelativeLayout>

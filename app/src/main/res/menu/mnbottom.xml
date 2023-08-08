@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home" android:id="@+id/mnHome"
+        android:icon="@drawable/baseline_add_home_24"/>
+    <item android:title="Đặt chỗ củ..." android:id="@+id/mnDat"
+        android:icon="@drawable/baseline_playlist_add_check_24"/>
+    <item android:title="Info" android:id="@+id/mnInfo"
+        android:icon="@drawable/baseline_info_24"/>
+</menu>

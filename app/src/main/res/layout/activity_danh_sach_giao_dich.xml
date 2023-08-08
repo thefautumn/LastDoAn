@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.DanhSachGiaoDich">
+    <LinearLayout
+        android:background="#5671B6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back_dsgd"
+            android:layout_marginTop="25dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/image_back" />
+
+        <TextView
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh sách giao dịch" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giao dịch hiện hành" />
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/edit_radius5_stroke_black"
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã đặt chỗ" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02340924" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="165.000 VND" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:background="#A4A5D3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sun World Ba Na Hills tại Đà Nẵng" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingTop="1dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:background="@drawable/radius15"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Đã thanh toán" />
+
+            <Button
+                android:id="@+id/next_xem_chi_tiet"
+                android:background="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Xem chi tiết" />
+            <Button
+                android:background="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Hủy" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_radius5_stroke_black"
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã đặt chỗ" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02340924" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="165.000 VND" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:background="#A4A5D3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sun World Ba Na Hills tại Đà Nẵng" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingTop="1dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:background="@drawable/radius15"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Đã thanh toán" />
+
+            <Button
+                android:background="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Xem chi tiết" />
+            <Button
+                android:background="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Hủy" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_radius5_stroke_black"
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã đặt chỗ" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02340924" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="165.000 VND" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:background="#A4A5D3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sun World Ba Na Hills tại Đà Nẵng" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingTop="1dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:background="@drawable/radius15"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Đã thanh toán" />
+
+            <Button
+                android:background="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Xem chi tiết" />
+            <Button
+                android:background="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Hủy" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECECEC"
+    tools:context=".Activity.ThongTinDatXe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/radius_bottom"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tv_back_TTDX"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/image_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:text="Điền thông tin"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:text="Bước 1: Đặt xe"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_radius5_stroke_black"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Th2, 17 thg 7 - Th2, 17 thg 7"
+                android:textColor="#808080"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="City Car (2 Hour)"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Cung cấp bởi Mioto Ho Chi Minh City"
+                android:textColor="#808080"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Thời gian thuê xe: 1 ngày , đón lúc 05:15"
+                android:textColor="#808080"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin hành khách" />
+
+    <LinearLayout
+        android:background="@drawable/radius10_stroke_black"
+        android:layout_marginLeft="15dp"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="280dp"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:textColor="#1748F8"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm đón xe" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/radius10_stroke_black"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:background="@null"
+            android:text="Chọn"
+            android:textAllCaps="false"
+            android:textColor="#1748F8"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Yêu cầu đặc biệt"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:background="@drawable/radius10_stroke_black"
+        android:layout_marginLeft="15dp"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="280dp"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:textColor="#1748F8"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá bạn trả" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="180dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FF723B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VND 508.000" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_thanhtoan_DX"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_radius5"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="Đến thanh toán" />
+    </LinearLayout>
+</LinearLayout>

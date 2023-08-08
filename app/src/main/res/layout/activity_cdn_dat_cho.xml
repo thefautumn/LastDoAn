@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.CDNDatCho">
+
+    <LinearLayout
+        android:background="#5671B6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <android.widget.SearchView
+            android:id="@+id/searchview_mhc"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_searchview" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_searchview"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="Bạn chưa đăng nhập nên không có dữ liệu "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cdn_datcho"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_radius5"
+            android:text="Đến đăng nhập"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/edit_phan_thuong_cua_toi"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="408dp"
+        android:background="@drawable/edit_img_tour_hot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_cdn_home"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/icon_home_mhc" />
+            <TextView
+                android:text="Home"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="55dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/icon_list_mhc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Đặt chỗ củ..."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_cdn_tk"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/icon_tai_khoan_mhc" />
+            <TextView
+                android:text="Tài khoản"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
