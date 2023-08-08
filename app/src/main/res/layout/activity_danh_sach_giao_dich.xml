@@ -121,7 +121,7 @@
                 android:text="Đã thanh toán" />
 
             <Button
-                android:id="@+id/next_xem_chi_tiet"
+                android:id="@+id/btn_xemchitiet"
                 android:background="@null"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="5dp"
@@ -132,17 +132,19 @@
                 android:layout_width="110dp"
                 android:layout_height="40dp"
                 android:text="Xem chi tiết" />
+
             <Button
-                android:background="@null"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:textSize="16dp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textAllCaps="false"
+                android:id="@+id/btn"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:text="Hủy" />
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="Hủy"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout

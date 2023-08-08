@@ -16,6 +16,9 @@
             android:name=".Activity.ChuaDangNhap_TK"
             android:exported="false" />
         <activity
+            android:name=".Activity.ChiTietGiaoDich"
+            android:exported="false" />
+        <activity
             android:name=".Activity.CDNDatCho"
             android:exported="false" />
         <activity

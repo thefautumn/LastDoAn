@@ -35,7 +35,7 @@ public class DanhSachGiaoDich extends AppCompatActivity {
     }
     public void anhXa()
     {
-        next_xem_chi_tiet = (Button) findViewById(R.id.next_xem_chi_tiet);
+        next_xem_chi_tiet = (Button) findViewById(R.id.btn_xemchitiet);
         back = findViewById(R.id.img_back_dsgd);
     }
 }
